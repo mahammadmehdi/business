@@ -1,0 +1,147 @@
+body{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)) , url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+    
+    .navText{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        text-transform: uppercase;
+        line-height: 1;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .navText h1{
+        font-size: 2rem;
+        font-weight: 800;
+        color: #e6a756;
+    }
+    .navText span{
+        font-size: 5rem;
+        font-weight: 100;
+        line-height: 4rem;
+        color: #f6e1c5;;
+    }
+    
+    #navbar{
+        background-color: rgba(47, 23, 15, 0.9);;
+        height: 12vh;
+        color: rgba(255, 255, 255, 0.55);
+        position: relative;
+        
+    }
+    
+    .main ul{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 70px;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 800;
+        position: absolute;
+        left: 32%;
+        /* display: block; */
+    
+    }
+    li{
+        padding-top: 30px;
+        transition: 300ms;
+    
+    }
+    li:hover{
+        cursor: pointer;
+        color: #6c757d;;
+    }
+    a{
+        color: rgba(255, 255, 255, 0.7);
+        transition: 300ms;
+    
+    }
+    a:hover{
+        color: #6c757d;
+    }
+
+    .main span{
+        position: absolute;
+        right: 5%;
+        top: 33%;
+        font-size: 25px;
+        display: none;
+    }
+    @media screen and (max-width: 1000px) {
+        .main span {
+          display: block;
+        }
+      }
+
+      @media screen and (max-width: 1000px) {
+        .main ul {
+          display: none;
+        }
+      }
+
+#main{
+    max-width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-top: 8%;
+}
+    #main .container img{
+max-width: 80%;
+min-height: 350px;
+
+}
+.text{
+    background-color: #f6e1c5;
+    max-width: 70%;
+    min-height: 410px;
+    margin-left: 5%;
+    margin-top: -7%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    
+}
+
+.text h4{
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.text span{
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.text p{
+    line-height: 1.75;
+    padding-top: 30px;
+}
+
+#footer{
+    background-color:  rgba(47, 23, 15, 0.9);
+    max-width: 100%;
+    min-height: 130px;
+    margin-top: 7%;
+ }
+ .footer{
+     display: flex;
+     justify-content: center;
+     padding-top: 4%;
+ }
+ .footer span{
+     color: #f6e1c5;
+     font-size: 0.875em;
+     line-height: 1.75;
+ }
